@@ -71,7 +71,7 @@ const TourCard: React.FunctionComponent<TourCardProps> = (props) => {
         <Paper
           elevation={3}
           onClick={() => {
-            navigate(`/id/${props.tour.id}`);
+            navigate(`/${props.tour.id}`);
           }}
         >
           <img className="img" src={props.tour.image} alt="hi"></img>
