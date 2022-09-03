@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { AccessTime } from "@mui/icons-material";
 import { TypographyOptions } from "@mui/material/styles/createTypography";
+import { useNavigate } from "react-router-dom";
 
 declare module "@mui/material/Typography" {
   interface TypographyPropsVariantOverrides {
@@ -63,10 +64,16 @@ type TourCardProps = {
   tour: Tour;
 };
 const TourCard: React.FunctionComponent<TourCardProps> = (props) => {
+  const navigate = useNavigate();
   return (
     <Grid item xs={3}>
       <ThemeProvider theme={theme}>
-        <Paper elevation={3}>
+        <Paper
+          elevation={3}
+          onClick={() => {
+            navigate(`/id/${props.tour.id}`);
+          }}
+        >
           <img className="img" src={props.tour.image} alt="hi"></img>
           <Box paddingX={1}>
             <Typography component="h2" variant="subtitle1">
