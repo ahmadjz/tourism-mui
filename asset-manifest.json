@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tourism-mui/static/css/main.0e069db0.css",
-    "main.js": "/tourism-mui/static/js/main.a939631c.js",
+    "main.js": "/tourism-mui/static/js/main.7d5d9fdd.js",
     "static/js/787.e82e003b.chunk.js": "/tourism-mui/static/js/787.e82e003b.chunk.js",
     "index.html": "/tourism-mui/index.html",
     "main.0e069db0.css.map": "/tourism-mui/static/css/main.0e069db0.css.map",
-    "main.a939631c.js.map": "/tourism-mui/static/js/main.a939631c.js.map",
+    "main.7d5d9fdd.js.map": "/tourism-mui/static/js/main.7d5d9fdd.js.map",
     "787.e82e003b.chunk.js.map": "/tourism-mui/static/js/787.e82e003b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e069db0.css",
-    "static/js/main.a939631c.js"
+    "static/js/main.7d5d9fdd.js"
   ]
 }
