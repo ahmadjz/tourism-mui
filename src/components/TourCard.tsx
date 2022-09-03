@@ -9,7 +9,6 @@ import {
   ThemeProvider,
 } from "@mui/material";
 import { AccessTime } from "@mui/icons-material";
-import data from "../data.json";
 import { TypographyOptions } from "@mui/material/styles/createTypography";
 
 declare module "@mui/material/Typography" {

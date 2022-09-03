@@ -1,6 +1,5 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import SearchAppBar from "../components/AppBar";
 import TourCard from "../components/TourCard";
 import cities from "../data.json";
 
