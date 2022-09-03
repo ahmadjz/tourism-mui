@@ -1,18 +1,18 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import SearchAppBar from "./components/AppBar";
 import Tour from "./pages/Tour";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <SearchAppBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/:id" element={<Tour />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
